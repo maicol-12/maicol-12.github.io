@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="MT Tecnología & Soluciones: páginas web que ayudan a negocios y empresas a verse profesionales, generar confianza y convertir visitas en clientes. También desarrollamos software, redes, soporte, seguridad y soluciones tecnológicas personalizadas.">
+  <meta name="theme-color" content="#070b12">
+  <title>MT Tecnología & Soluciones | Tecnología que impulsa tus ideas</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="progress" id="progress"></div>
+
+  <header class="site-header" id="inicio">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="MT Tecnología & Soluciones, inicio">
+        <img src="assets/logo.png" alt="Logo MT Tecnología & Soluciones">
+        <span><strong>MT</strong><small>Tecnología &amp; Soluciones</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#servicios">Servicios</a>
+        <a href="#web">Páginas web</a>
+        <a href="#ideas">Soluciones</a>
+        <a href="#nosotros">MT</a>
+        <a href="#proceso">Cómo trabajamos</a>
+        <a href="#faq">Preguntas</a>
+        <a class="nav-cta" href="#contacto">Cotizar <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section">
+      <canvas id="netCanvas" class="hero-canvas" aria-hidden="true"></canvas>
+      <div class="hero-glow hero-glow-one"></div><div class="hero-glow hero-glow-two"></div>
+      <div class="hero-grid container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> MT Tecnología &amp; Soluciones</p>
+          <h1>Tecnología que <em>impulsa</em> tus ideas.</h1>
+          <p class="hero-text">Creamos soluciones digitales y tecnológicas para que tu negocio se vea profesional, conecte con más personas y aproveche mejor la tecnología.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contacto">Quiero impulsar mi negocio <span>↗</span></a>
+            <a class="btn btn-ghost" href="#servicios">Ver soluciones</a>
+          </div>
+          <div class="hero-note"><span class="pulse-dot"></span><span>Diseño · Desarrollo · Tecnología</span></div>
+        </div>
+
+        <!-- Visual hero nuevo: ecosistema digital -->
+        <div class="hero-visual reveal delay-1" aria-label="Ilustración de una presencia digital conectada">
+          <div class="visual-grid"></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="floating-node node-a">WEB <b>01</b></div>
+          <div class="floating-node node-b">CLIENTES <b>02</b></div>
+          <div class="floating-node node-c">RESULTADOS <b>03</b></div>
+          <div class="browser-card">
+            <div class="browser-bar"><span></span><span></span><span></span><label>mt-soluciones / tu-negocio</label><i>⌁</i></div>
+            <div class="browser-content">
+              <div class="mock-nav"><b>MT<span>.</span></b><small>INICIO&nbsp;&nbsp; SERVICIOS&nbsp;&nbsp; CONTACTO</small><em>☰</em></div>
+              <div class="mock-hero">
+                <div class="mock-copy"><small>Tu negocio en internet</small><strong>Haz que te<br><i>encuentren.</i></strong><p>Una presencia digital profesional que trabaja por tu negocio.</p><button>Conocer más&nbsp; →</button></div>
+                <div class="mock-device"><div class="screen-glow"></div><span>WEB</span><b>+</b><i></i></div>
+              </div>
+              <div class="mock-metrics"><div><b>24/7</b><small>presencia</small></div><div><b>01</b><small>objetivo</small></div><div><b>MT</b><small>tecnología</small></div></div>
+            </div>
+          </div>
+          <div class="phone-card"><div class="phone-top"></div><div class="phone-screen"><b>Tu negocio</b><strong>está aquí.</strong><span>WhatsApp&nbsp; →</span></div></div>
+          <div class="spark spark-one">✦</div><div class="spark spark-two">✦</div><div class="spark spark-three">+</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRUST BAR -->
+    <section class="trust-bar reveal" aria-label="Por qué elegir a MT">
+      <div class="container trust-grid">
+        <div class="trust-item"><i>⏱</i><div><b>&lt; 24h</b><span>Tiempo de respuesta</span></div></div>
+        <div class="trust-item"><i>📱</i><div><b>100%</b><span>Adaptado a celular</span></div></div>
+        <div class="trust-item"><i>💬</i><div><b>Directo</b><span>Acompañamiento por WhatsApp</span></div></div>
+        <div class="trust-item"><i>🎯</i><div><b>A la medida</b><span>Nada de plantillas genéricas</span></div></div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Áreas de trabajo">
+      <div class="marquee-track">
+        <div class="marquee-group"><span>DESARROLLO WEB</span><b>✦</b><span>SOFTWARE</span><b>✦</b><span>AUTOMATIZACIÓN</span><b>✦</b><span>REDES</span><b>✦</b><span>SEGURIDAD</span><b>✦</b><span>TECNOLOGÍA</span><b>✦</b></div>
+        <div class="marquee-group" aria-hidden="true"><span>DESARROLLO WEB</span><b>✦</b><span>SOFTWARE</span><b>✦</b><span>AUTOMATIZACIÓN</span><b>✦</b><span>REDES</span><b>✦</b><span>SEGURIDAD</span><b>✦</b><span>TECNOLOGÍA</span><b>✦</b></div>
+      </div>
+    </section>
+
+    <!-- WEB FIRST -->
+    <section class="section web-showcase" id="web">
+      <div class="container web-grid">
+        <div class="web-copy reveal">
+          <p class="eyebrow"><span></span> El primer paso para crecer</p>
+          <h2>Tu negocio merece una página web que <em>trabaje por ti.</em></h2>
+          <p class="lead">Hoy tus clientes buscan antes de comprar. Una buena página web no es solo “tener presencia”: es mostrar lo que haces, generar confianza y darle al cliente una forma clara de contactarte.</p>
+          <div class="web-points">
+            <div><span>✓</span><b>Imagen profesional</b><small>Haz que tu negocio genere confianza desde la primera visita.</small></div>
+            <div><span>✓</span><b>Más oportunidades</b><small>Presenta tus servicios las 24 horas y facilita el contacto.</small></div>
+            <div><span>✓</span><b>Hecha para celulares</b><small>La mayoría de tus clientes puede llegar desde su teléfono.</small></div>
+            <div><span>✓</span><b>WhatsApp integrado</b><small>Convierte el interés en una conversación directa.</small></div>
+          </div>
+          <a class="btn btn-primary" href="#contacto">Quiero una web para mi negocio <span>↗</span></a>
+        </div>
+        <div class="web-visual reveal delay-1">
+          <div class="web-back-glow"></div>
+          <div class="web-window">
+            <div class="window-head"><div><i></i><i></i><i></i></div><span>tuempresa.com</span><b>↗</b></div>
+            <div class="window-body">
+              <div class="website-mini-nav"><strong>TU<span>MARCA</span></strong><small>Inicio&nbsp;&nbsp; Servicios&nbsp;&nbsp; Nosotros&nbsp;&nbsp; Contacto</small></div>
+              <div class="website-mini-hero"><small>LO QUE HACES, EN INTERNET</small><h3>Haz que tu negocio<br><em>se vea y se elija.</em></h3><p>Presenta tus servicios, conecta con tus clientes y convierte visitas en oportunidades.</p><div><button>Solicitar información</button><span>WhatsApp&nbsp; ↗</span></div></div>
+              <div class="mini-cards"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+          <div class="conversion-card"><span>↗</span><div><b>VISITA</b><small>→ CONTACTO</small></div></div>
+          <div class="trust-card"><b>✓</b><span>Profesional<br><small>Responsive</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ANATOMY -->
+    <section class="section anatomy" id="comparacion">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="eyebrow"><span></span> De presencia a oportunidades</p><h2>Una buena web no solo te muestra. <em>Te ayuda a vender.</em></h2></div>
+          <p>Toca cada punto y descubre qué hace que una web convierta visitas en clientes.</p>
+        </div>
+
+        <div class="anatomy-wrap reveal">
+          <div class="anatomy-frame">
+            <div class="a-topbar"><i></i><i></i><i></i><span>tunegocio.com</span></div>
+            <div class="a-nav"><b>TU<span>MARCA</span></b><small>Inicio&nbsp; Servicios&nbsp; Contacto</small></div>
+            <div class="a-hero">
+              <small>LO QUE HACES, EN UNA FRASE</small>
+              <strong>Servicios claros.<br>Contacto directo.</strong>
+              <button>Escribir por WhatsApp</button>
+            </div>
+            <div class="a-trust"><span></span><span></span><span></span></div>
+          </div>
+
+          <button class="hotspot hp1" style="top:9%;left:8%" data-tip="Marca reconocible: el cliente sabe de inmediato en qué negocio está y qué esperar.">1</button>
+          <button class="hotspot hp2" style="top:34%;left:14%" data-tip="Mensaje claro en 3 segundos: dice qué haces, sin adivinar ni leer de más.">2</button>
+          <button class="hotspot hp3" style="top:58%;left:20%" data-tip="Llamado a la acción directo: un solo clic conecta al cliente contigo por WhatsApp.">3</button>
+          <button class="hotspot hp4" style="top:80%;left:66%" data-tip="Señales de confianza: mostrar que el negocio es real hace que se animen a escribir.">4</button>
+
+          <div class="hotspot-tip" id="hotspotTip"></div>
+        </div>
+        <p class="anatomy-hint">Toca los números sobre el mockup ↑</p>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="section services" id="servicios">
+      <div class="container">
+        <div class="section-head reveal">
+          <div><p class="eyebrow"><span></span> Lo que hacemos</p><h2>Soluciones tecnológicas para <em>hacer crecer tu negocio.</em></h2></div>
+          <p>La web es nuestro punto de partida, pero MT puede acompañarte en muchas otras necesidades digitales y tecnológicas.</p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card featured reveal">
+            <div class="service-top"><div class="service-icon">⌁</div><span class="service-number">01</span></div>
+            <span class="service-tag">ENFOQUE PRINCIPAL</span><h3>Desarrollo web</h3>
+            <p>Diseñamos páginas web profesionales para negocios, profesionales y empresas que quieren verse mejor, generar confianza y facilitar nuevas oportunidades.</p>
+            <ul><li>Páginas informativas</li><li>Diseño responsive</li><li>Portafolios de negocio</li><li>Servicios y contacto</li><li>Integración con WhatsApp</li><li>SEO básico</li></ul>
+            <a href="#contacto" class="text-link">Quiero una página web →</a>
+          </article>
+
+          <article class="service-card reveal delay-1">
+            <div class="service-top"><div class="service-icon">⌘</div><span class="service-number">02</span></div><h3>Desarrollo de software</h3>
+            <p>Herramientas digitales hechas para necesidades concretas.</p>
+            <ul><li>Sistemas de gestión</li><li>Aplicaciones personalizadas</li><li>Bases de datos</li><li>Automatización de procesos</li><li>Integración hardware/software</li></ul>
+            <a href="#contacto" class="text-link">Cuéntanos tu idea →</a>
+          </article>
+
+          <article class="service-card reveal delay-2">
+            <div class="service-top"><div class="service-icon">▦</div><span class="service-number">03</span></div><h3>Mantenimiento de computadores</h3>
+            <p>Soporte para que tus equipos sigan funcionando de forma estable.</p>
+            <ul><li>Mantenimiento preventivo</li><li>Mantenimiento correctivo</li><li>Limpieza y optimización</li><li>Instalación de software</li><li>Diagnóstico de fallas</li><li>Soporte técnico</li></ul>
+            <a href="#contacto" class="text-link">Solicitar soporte →</a>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="service-top"><div class="service-icon">◌</div><span class="service-number">04</span></div><h3>Redes</h3>
+            <p>Conectividad pensada para hogares, oficinas, negocios y proyectos.</p>
+            <ul><li>Instalación y configuración</li><li>Routers y Wi‑Fi</li><li>Cableado estructurado</li><li>Configuración de equipos</li><li>Diagnóstico de red</li></ul>
+            <a href="#contacto" class="text-link">Hablar de mi red →</a>
+          </article>
+
+          <article class="service-card reveal delay-1">
+            <div class="service-top"><div class="service-icon">◉</div><span class="service-number">05</span></div><h3>Seguridad y cámaras</h3>
+            <p>Soluciones tecnológicas para monitoreo y seguridad de espacios.</p>
+            <ul><li>Cámaras de seguridad</li><li>Sistemas de videovigilancia</li><li>Instalación y configuración</li><li>Monitoreo</li><li>Soporte tecnológico</li></ul>
+            <a href="#contacto" class="text-link">Consultar solución →</a>
+          </article>
+        </div>
+
+        <div class="solution-categories">
+          <div class="category reveal"><div class="category-icon">🔧</div><div><h3>Automatización</h3><p>Portones y puertas automáticas · Control de luces · Sensores · Automatización de viviendas y negocios · Sistemas de apertura · Control de acceso · Arduino / ESP32 · Proyectos personalizados.</p></div></div>
+          <div class="category reveal delay-1"><div class="category-icon">⌂</div><div><h3>Casas inteligentes</h3><p>Iluminación inteligente · Sensores de movimiento y temperatura · Control desde celular · Automatización de dispositivos · Seguridad y monitoreo · Ahorro energético.</p></div></div>
+          <div class="category reveal delay-2"><div class="category-icon">▣</div><div><h3>Empresas y comercios</h3><p>Control de acceso · Automatización de procesos · Redes · Mantenimiento de computadores · Instalación de sistemas · Soporte técnico · Cámaras y seguridad · Dispositivos personalizados.</p></div></div>
+          <div class="category reveal"><div class="category-icon">⌘</div><div><h3>Tecnología</h3><p>Software · Páginas web · Sistemas de gestión · Bases de datos · Integración hardware/software · IoT · Prototipos electrónicos · Portafolios de negocio · Presencia y marketing web.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ESSENCE -->
+    <section class="section essence" id="ideas">
+      <div class="container essence-inner reveal">
+        <div class="essence-copy"><p class="eyebrow"><span></span> La esencia de MT</p><h2>Si no existe una solución para lo que necesitas, <em>nosotros la desarrollamos.</em></h2><p>No tienes que llegar con una solución ya pensada. Puedes llegar con un problema, una idea o una meta. Nosotros analizamos qué puede hacerse con tecnología.</p><a class="btn btn-primary" href="#contacto">Cuéntanos tu idea <span>↗</span></a></div>
+        <div class="essence-art" aria-hidden="true"><div class="ring ring-a"></div><div class="ring ring-b"></div><div class="core">MT<span>+</span></div><div class="art-line l1"></div><div class="art-line l2"></div><div class="art-line l3"></div><span class="art-label a1">IDEA</span><span class="art-label a2">DESARROLLO</span><span class="art-label a3">SOLUCIÓN</span></div>
+      </div>
+    </section>
+
+    <!-- FUTURE CONCEPTS -->
+    <section class="section concepts-section">
+      <div class="container idea-grid">
+        <div class="idea-copy reveal"><p class="eyebrow"><span></span> Exploramos nuevas posibilidades</p><h2>Tecnología para llevar tus ideas <em>más lejos.</em></h2><p>Algunas áreas forman parte de nuestra evolución y de futuros proyectos de MT. Son posibilidades que podemos analizar según cada necesidad.</p></div>
+        <div class="concepts reveal delay-1">
+          <div class="concept"><span>01</span><div><b>Casa inteligente</b><small>Concepto / exploración</small></div><i>↗</i></div>
+          <div class="concept"><span>02</span><div><b>Portón inteligente</b><small>Concepto / exploración</small></div><i>↗</i></div>
+          <div class="concept"><span>03</span><div><b>Sistema IoT</b><small>Concepto / exploración</small></div><i>↗</i></div>
+          <div class="concept"><span>04</span><div><b>Automatización con Arduino / ESP32</b><small>Área de desarrollo</small></div><i>↗</i></div>
+          <p class="concept-note">Los ejemplos anteriores son conceptos y áreas de desarrollo. No representan proyectos realizados ni clientes actuales.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="nosotros">
+      <div class="container about-grid">
+        <div class="about-visual reveal"><div class="grid-bg"></div><div class="about-orbit"></div><div class="about-logo"><img src="assets/logo.png" alt="MT"></div><div class="coordinates">MT / TECNOLOGÍA<br><b>IDEAS → SOLUCIONES</b></div></div>
+        <div class="about-copy reveal delay-1"><p class="eyebrow"><span></span> Conoce MT</p><h2>Construimos tecnología con un propósito: <em>hacer que las cosas funcionen mejor.</em></h2><p>MT Tecnología &amp; Soluciones nace para convertir necesidades reales en soluciones claras, útiles y hechas a la medida.</p><p>Comenzamos con desarrollo web, software, soporte informático, redes y seguridad, mientras construimos nuevas capacidades en automatización, domótica, IoT, electrónica y proyectos personalizados.</p><div class="values"><div><b>01</b><span>Cercanía</span><small>Escuchamos antes de proponer.</small></div><div><b>02</b><span>Personalización</span><small>Cada negocio tiene necesidades distintas.</small></div><div><b>03</b><span>Claridad</span><small>Sin promesas falsas ni proyectos inventados.</small></div><div><b>04</b><span>Evolución</span><small>Aprendemos para ofrecer cada vez más.</small></div></div></div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="section process" id="proceso">
+      <div class="container">
+        <div class="section-head reveal"><div><p class="eyebrow"><span></span> Así trabajamos</p><h2>De la necesidad a una <em>solución.</em></h2></div><p>Un proceso simple para entender primero y construir después.</p></div>
+        <div class="process-grid">
+          <div class="step reveal"><span>01</span><h3>Hablamos</h3><p>Nos cuentas qué necesitas, qué problema tienes o qué quieres conseguir.</p></div>
+          <div class="step reveal delay-1"><span>02</span><h3>Analizamos</h3><p>Definimos alcance, opciones, tiempos y una propuesta acorde a tu caso.</p></div>
+          <div class="step reveal delay-2"><span>03</span><h3>Desarrollamos</h3><p>Construimos, configuramos o implementamos la solución acordada.</p></div>
+          <div class="step reveal delay-3"><span>04</span><h3>Entregamos</h3><p>Revisamos contigo el resultado y dejamos todo listo para usar.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COVERAGE -->
+    <section class="coverage section">
+      <div class="container coverage-inner reveal"><div><p class="eyebrow"><span></span> Alcance</p><h2>Tu proyecto puede empezar <em>donde estés.</em></h2></div><div class="coverage-text"><p><strong>Servicios presenciales</strong> principalmente en Ubaté y municipios cercanos.</p><p><strong>Proyectos digitales</strong> y desarrollo de soluciones para clientes en Colombia.</p></div></div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq" id="faq">
+      <div class="container faq-grid">
+        <div class="faq-copy reveal"><p class="eyebrow"><span></span> Antes de escribirnos</p><h2>Preguntas <em>frecuentes.</em></h2><p>Si tienes otra duda, escríbenos directo por WhatsApp.</p></div>
+        <div class="faq-list reveal delay-1">
+          <details class="faq-item" open><summary>¿Cuánto tarda una página web?</summary><p>Depende del alcance, pero una página informativa sencilla suele estar lista en pocos días una vez definimos contenido y estilo contigo.</p></details>
+          <details class="faq-item"><summary>¿El dominio y el hosting están incluidos?</summary><p>Te orientamos para que los consigas tú mismo (queda a tu nombre) o lo gestionamos por ti si lo prefieres. Te explicamos las opciones sin compromisos ocultos.</p></details>
+          <details class="faq-item"><summary>¿Puedo pedir cambios después de la entrega?</summary><p>Sí. Revisamos el resultado contigo antes de entregar, y ajustes menores posteriores también los conversamos directamente.</p></details>
+          <details class="faq-item"><summary>¿Solo hacen páginas web?</summary><p>No. La web es nuestro punto de partida, pero también trabajamos software, redes, soporte técnico, seguridad y proyectos de automatización a la medida.</p></details>
+          <details class="faq-item"><summary>¿Atienden fuera de Ubaté?</summary><p>Los servicios presenciales son principalmente en Ubaté y municipios cercanos. Los proyectos digitales los desarrollamos para clientes en toda Colombia.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contacto">
+      <div class="container contact-grid">
+        <div class="contact-copy reveal"><p class="eyebrow"><span></span> Hablemos</p><h2>Tu idea puede ser el próximo proyecto de <em>MT.</em></h2><p>Cuéntanos qué necesitas y te ayudamos a aterrizarlo. Si lo que buscas es una página web para tu negocio, también podemos orientarte sobre qué debería tener para cumplir su objetivo.</p>
+          <div class="contact-info"><a href="https://wa.me/573228639881" target="_blank" rel="noopener"><span>WhatsApp / llamadas</span><b>+57 322 863 9881</b></a><a href="mailto:mtsoluciones10@gmail.com"><span>Correo</span><b>mtsoluciones10@gmail.com</b></a></div>
+        </div>
+        <form class="quote-form reveal delay-1" id="quoteForm">
+          <div class="form-title"><span>01</span><h3>Solicita información o una cotización</h3></div>
+          <div class="form-row"><label>Nombre<input name="nombre" required placeholder="Tu nombre"></label><label>Empresa / negocio<input name="empresa" placeholder="Nombre de tu negocio (opcional)"></label></div>
+          
+          <label>¿Qué necesitas?<select name="servicio" required><option value="">Selecciona una opción</option><option>Página web para mi negocio</option><option>Desarrollo de software</option><option>Mantenimiento de computadores</option><option>Redes</option><option>Seguridad y cámaras</option><option>Automatización / casa inteligente</option><option>Otra idea / solución tecnológica</option></select></label>
+          <label>Cuéntanos un poco más<textarea name="mensaje" required rows="5" placeholder="Ej.: Tengo un negocio y quiero una página web para mostrar mis servicios y recibir clientes por WhatsApp..."></textarea></label>
+          <button class="btn btn-primary" type="submit"><span class="wa-inline-icon" aria-hidden="true"><svg viewBox="0 0 32 32" role="img"><path d="M16 3.2A12.8 12.8 0 0 0 5 22.5L3.4 28.6l6.3-1.6A12.8 12.8 0 1 0 16 3.2Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11.2 10.2c.3-.5.7-.5 1.1-.5h.7c.3 0 .6.1.8.6l1 2.4c.1.3.1.6-.1.9l-.7.9c-.2.2-.2.5 0 .8.5.9 1.2 1.7 2 2.2.6.4 1.3.8 2.1 1 .3.1.5 0 .7-.2l1.1-1.3c.2-.3.5-.3.8-.2l2.3 1.1c.4.2.5.5.4.9-.2 1-.8 1.8-1.7 2.2-.6.3-1.5.3-2.4.1-1.6-.4-3.2-1.2-4.6-2.2-2.3-1.7-4-3.9-5.1-6.4-.5-1.2-.7-2.4-.4-3.1Z" fill="currentColor"/></svg></span> Preparar mi mensaje en WhatsApp <span>↗</span></button>
+          <p class="form-note" id="formNote">Se abrirá WhatsApp con tu solicitud ya organizada para que la revises y la envíes.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-top">
+      <div class="brand footer-brand"><img src="assets/logo.png" alt="MT"><span><strong>MT</strong><small>Tecnología &amp; Soluciones</small></span></div>
+      <div class="footer-links"><a href="#servicios">Servicios</a><a href="#web">Páginas web</a><a href="#nosotros">MT</a><a href="#contacto">Contacto</a></div>
+      <div class="socials" aria-label="Redes y contacto">
+        <a href="https://www.instagram.com/mtsoluciones10/" target="_blank" rel="noopener noreferrer" title="Instagram" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.5" cy="6.7" r="1.1" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61594503448259" target="_blank" rel="noopener noreferrer" title="Facebook" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.2 21v-8h2.7l.4-3h-3.1V8.1c0-.9.3-1.5 1.6-1.5h1.7V4c-.3 0-1.2-.1-2.3-.1-2.3 0-3.9 1.4-3.9 4v2.1H9v3h2.3v8h2.9Z" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@mtsoluciones101" target="_blank" rel="noopener noreferrer" title="TikTok" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.1 4h3c.2 1.7 1.2 3 2.9 3.7v3a8 8 0 0 1-2.9-1v5.4A5.9 5.9 0 1 1 11.2 9v3a2.9 2.9 0 1 0 2.9 3.1V4Z" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.youtube.com/channel/UCoEumbAvQ7JQlrMCqy_gvlA" target="_blank" rel="noopener noreferrer" title="YouTube" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 7.2a2.9 2.9 0 0 0-2-2C17.2 4.7 12 4.7 12 4.7s-5.2 0-7 .5a2.9 2.9 0 0 0-2 2A30 30 0 0 0 2.5 12 30 30 0 0 0 3 16.8a2.9 2.9 0 0 0 2 2c1.8.5 7 .5 7 .5s5.2 0 7-.5a2.9 2.9 0 0 0 2-2 30 30 0 0 0 .5-4.8 30 30 0 0 0-.5-4.8Z" fill="currentColor"/><path d="m10 9 5 3-5 3V9Z" fill="#071018"/></svg>
+        </a>
+        <a href="mailto:mtsoluciones10@gmail.com" title="Correo electrónico" aria-label="Correo electrónico">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m4.5 7 7.5 6 7.5-6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> MT Tecnología &amp; Soluciones. Todos los derechos reservados.</span><span>Tecnología que impulsa tus ideas.</span></div>
+  </footer>
+
+  <a class="whatsapp" href="https://wa.me/573228639881" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp" title="Escríbenos por WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.2A12.8 12.8 0 0 0 5 22.5L3.4 28.6l6.3-1.6A12.8 12.8 0 1 0 16 3.2Z" fill="none" stroke="currentColor" stroke-width="2"/><path d="M11.2 10.2c.3-.5.7-.5 1.1-.5h.7c.3 0 .6.1.8.6l1 2.4c.1.3.1.6-.1.9l-.7.9c-.2.2-.2.5 0 .8.5.9 1.2 1.7 2 2.2.6.4 1.3.8 2.1 1 .3.1.5 0 .7-.2l1.1-1.3c.2-.3.5-.3.8-.2l2.3 1.1c.4.2.5.5.4.9-.2 1-.8 1.8-1.7 2.2-.6.3-1.5.3-2.4.1-1.6-.4-3.2-1.2-4.6-2.2-2.3-1.7-4-3.9-5.1-6.4-.5-1.2-.7-2.4-.4-3.1Z" fill="currentColor"/></svg>
+    <span>WhatsApp</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
